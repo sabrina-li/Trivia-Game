@@ -2,12 +2,16 @@
     {
         "question":"what does panda eat?",
         "choices":["Grass","Tree","Bugs","Bamboo"],
-        "answer":3
+        "answer":3,
+        "keyword":"panda",
+        "gif":"https://media0.giphy.com/media/EatwJZRUIv41G/200.gif"
     },
     {
         "question":"What is the longest snake in the world?",
         "choices":["Green anaconda","Burmese python","African rock python","Boa constrictor"],
-        "answer":0
+        "answer":0,
+        "keyword":"snake",
+        "gif":"https://media.giphy.com/media/jCodV34MoczjW/giphy.gif"
     }
 
 ]
