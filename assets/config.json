@@ -1,5 +1,27 @@
 [
     {
+        "question":"What is the fastest flying bird in the world?",
+        "choices":["Happy Eagle","Peregrine Falcon","Horned Sungem","Spine-Tailed Swift"],   
+        "answer":1,
+        "keyword":"Peregrine Falcon",
+        "gif":""
+    },
+    {
+        "question":"What animal has the highest blood pressure?",
+        "choices":["Giraff","Blue Whale","Elephant","Flea"],
+        "answer":0,
+        "keyword":"Giraff",
+        "gif":""
+    },
+    {
+        "question":"What is the proper term for a group of kittens?",
+        "choices":["Kine","Kettle","Kaboodle","Kindle"],
+        "answer":3,
+        "keyword":"kittens",
+        "gif":""
+    },
+   
+    {
         "question":"what does panda eat?",
         "choices":["Grass","Tree","Bugs","Bamboo"],
         "answer":3,
@@ -7,11 +29,11 @@
         "gif":"https://media0.giphy.com/media/EatwJZRUIv41G/200.gif"
     },
     {
-        "question":"What is the longest snake in the world?",
-        "choices":["Green anaconda","Burmese python","African rock python","Boa constrictor"],
-        "answer":0,
-        "keyword":"snake",
-        "gif":"https://media.giphy.com/media/jCodV34MoczjW/giphy.gif"
+        "question":"All cats are born with what color eyes?",
+        "choices":["Pink","Green","Blue","Black"],
+        "answer":2,
+        "keyword":"cat eye",
+        "gif":""
     }
 
 ]
