@@ -48,15 +48,14 @@
         "keyword":"Simien Jackel",
         "answer":0,
         "choices":[  
+            "Simien Jackel",
            "Ethiopian Coyote",
            "Amharic Fox",
            "Canis Simiensis"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/lkVO2a0QHIFzi/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"What does &quot;hippopotamus&quot; mean and in what langauge?",
         "keyword":"",
         "answer":3,
@@ -65,259 +64,164 @@
            "Fat Pig (Greek)",
            "Fat Pig (Latin)",
            "River Horse (Greek)"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/836Jiy2Yx2p81TotTK/giphy.gif"
      },
      {  
-        
-        
-        
-        "question":"What type of animal is a natterjack?",
-        "keyword":"",
-        "answer":1,
-        "choices":[  
-           "Bird",
-           "Toad",
-           "Fish",
-           "Insect"
-        ]
-     },
-     {  
-        
-        
-        
         "question":"What color\/colour is a polar bear&#039;s skin?",
-        "keyword":"",
+        "keyword":"polar bear",
         "answer":1,
         "choices":[  
            "White",
            "Black",
            "Pink",
            "Green"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/Jm8ZQgZVHLdyU/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"Cashmere is the wool from which kind of animal?",
-        "keyword":"",
+        "keyword":"Goat",
         "answer":2,
         "choices":[  
            "Sheep",
            "Camel",
            "Goat",
            "Llama"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/pzKP5nt2fslptP4jeT/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"What is the scientific name for the &quot;Polar Bear&quot;?",
-        "keyword":"",
+        "keyword":"Polar Bear",
         "answer":0,
         "choices":[  
             "Ursus Maritimus",
            "Polar Bear",
            "Ursus Spelaeus",
            "Ursus Arctos"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/EP3Ju1Tpi0VAA/giphy.gif"
      },
      {  
-        
-        
-
         "question":"How many legs do butterflies have?",
-        "keyword":"",
+        "keyword":"butterflies",
         "answer":1,
         "choices":[  
            "2",
            "6",
            "4",
            "0"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/7OM8aqLAr2xQ4/giphy.gif"
      },
-     {  
-        
-        
-        
-        "question":"What scientific suborder does the family Hyaenidae belong to?",
-        "keyword":"",
-        "answer":0,
-        "choices":[  
-            "Feliformia",
-           "Haplorhini",
-           "Caniformia",
-           "Ciconiiformes"
-        ]
-     },
-     {  
-        
-        
-        
-        "question":"How many known living species of hyenas are there?",
-        "keyword":"",
-        "answer":2,
-        "choices":[  
-           "8",
-           "2",
-           "4",
-           "6"
-        ]
-     },
-     {  
-        
-        
-        
+     { 
         "question":"For what reason would a spotted hyena &quot;laugh&quot;?",
-        "keyword":"",
+        "keyword":"hyena",
         "answer":3,
         "choices":[  
            "Excitement",
            "Aggression",
            "Exhaustion",
            "Nervousness"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/3otPoJR3F6qYiIxe5q/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"The now extinct species &quot;Thylacine&quot; was native to where?",
-        "keyword":"",
+        "keyword":"Thylacine",
         "answer":0,
         "choices":[  
             "Tasmania, Australia",
            "Baluchistan, Pakistan",
            "Wallachia, Romania",
            "Oregon, United States"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/WjpsVNljzLVJu/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"What is the Gray Wolf&#039;s scientific name?",
-        "keyword":"",
+        "keyword":"Wolf",
         "answer":3,
         "choices":[  
            "Canis Aureus",
            "Canis Latrans",
            "Canis Lupus Lycaon",
            "Canis Lupus"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/tYaMjbShvb9CM/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"What is Grumpy Cat&#039;s real name?",
-        "keyword":"",
+        "keyword":"Grumpy Cat",
         "answer":2,
         "choices":[  
            "Sauce",
            "Minnie",
            "Tardar Sauce",
            "Broccoli"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/aTUrF9TPZYy6Q/giphy.gif"
      },
      {  
-        
-        
-        
-        "question":"Which class of animals are newts members of?",
-        "keyword":"",
-        "answer":1,
-        "choices":[  
-           "Fish",
-           "Amphibian",
-           "Reptiles",
-           "Mammals"
-        ]
-     },
-     {  
-        
-        
-        
         "question":"Unlike on most salamanders, this part of a newt is flat?",
-        "keyword":"",
+        "keyword":"salamanders",
         "answer":2,
         "choices":[  
            "Head",
            "Teeth",
            "Tail",
            "Feet"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/xliDkOFMMvzG0/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"Which species is a &quot;mountain chicken&quot;?",
-        "keyword":"",
+        "keyword":"Frog",
         "answer":0,
         "choices":[ 
             "Frog", 
            "Chicken",
            "Horse",
            "Fly"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/4N4JBFo45PVPa/giphy.gif"
      },
      {  
-        
-        
-        
         "question":"What is the fastest animal?",
-        "keyword":"",
+        "keyword":"Peregrine Falcon",
         "answer":0,
         "choices":[  
             "Peregrine Falcon",
            "Golden Eagle",
            "Cheetah",
            "Horsefly"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/RdHRKSgsHLw0xxnjqk/giphy.gif"
      },
-     {  
-        
-        
-        
+     { 
         "question":"What is the collective noun for a group of crows?",
-        "keyword":"", 
+        "keyword":"crow", 
         "answer":1,
         "choices":[  
            "Pack",
            "Murder",
            "Gaggle",
            "Herd"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/Sdf6s8rKutIXe/giphy.gif"
      },
      {  
-        
-        
-        
-        "question":"Which of the following is another name for the &quot;Poecilotheria Metallica Tarantula&quot;?",
-        "keyword":"",
-        "answer":3,
-        "choices":[  
-           "Hopper",
-           "Silver Stripe",
-           "Woebegone",
-           "Gooty"
-        ]
-     },
-     {  
-        
-        
-        
         "question":"What is the scientific name of the Common Chimpanzee?",
-        "keyword":"",
+        "keyword":"Chimpanzee",
         "answer":2,
         "choices":[  
            "Gorilla gorilla",
            "Pan paniscus",
            "Pan troglodytes",
            "Panthera leo"
-        ]
+        ],
+        "gif":"https://media.giphy.com/media/l1KVboXQeiaX7FHgI/giphy.gif"
      }
  
 

@@ -1,3 +1,6 @@
+//API available: https://opentdb.com/api.php?amount=10&category=27&type=multiple
+//GIFHY API: https://developers.giphy.com/dashboard/
+
 //load vars&config
 $.getJSON("assets/config.json",function(data){
     questionObjArray = data;
