@@ -4,21 +4,21 @@
         "choices":["Happy Eagle","Peregrine Falcon","Horned Sungem","Spine-Tailed Swift"],   
         "answer":1,
         "keyword":"Peregrine Falcon",
-        "gif":""
+        "gif":"https://media.giphy.com/media/RdHRKSgsHLw0xxnjqk/giphy.gif"
     },
     {
         "question":"What animal has the highest blood pressure?",
         "choices":["Giraff","Blue Whale","Elephant","Flea"],
         "answer":0,
         "keyword":"Giraff",
-        "gif":""
+        "gif":"https://media.giphy.com/media/JmBXdjfIblJDi/giphy.gif"
     },
     {
         "question":"What is the proper term for a group of kittens?",
         "choices":["Kine","Kettle","Kaboodle","Kindle"],
         "answer":3,
         "keyword":"kittens",
-        "gif":""
+        "gif":"https://media.giphy.com/media/tMiHhTLvQcavm/giphy.gif"
     },
    
     {
@@ -33,7 +33,293 @@
         "choices":["Pink","Green","Blue","Black"],
         "answer":2,
         "keyword":"cat eye",
-        "gif":""
-    }
+        "gif":"https://media.giphy.com/media/O0TdwJm7LKXqE/giphy.gif"
+    },
+    {
+        "question":"All cats are born with what color eyes?",
+        "choices":["Pink","Green","Blue","Black"],
+        "answer":2,
+        "keyword":"cat eye",
+        "gif":"https://media.giphy.com/media/O0TdwJm7LKXqE/giphy.gif"
+    },
 
+    {       
+        "question":"What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+        "keyword":"Simien Jackel",
+        "answer":0,
+        "choices":[  
+           "Ethiopian Coyote",
+           "Amharic Fox",
+           "Canis Simiensis"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What does &quot;hippopotamus&quot; mean and in what langauge?",
+        "keyword":"",
+        "answer":3,
+        "choices":[  
+           "River Horse (Latin)",
+           "Fat Pig (Greek)",
+           "Fat Pig (Latin)",
+           "River Horse (Greek)"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What type of animal is a natterjack?",
+        "keyword":"",
+        "answer":1,
+        "choices":[  
+           "Bird",
+           "Toad",
+           "Fish",
+           "Insect"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What color\/colour is a polar bear&#039;s skin?",
+        "keyword":"",
+        "answer":1,
+        "choices":[  
+           "White",
+           "Black",
+           "Pink",
+           "Green"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"Cashmere is the wool from which kind of animal?",
+        "keyword":"",
+        "answer":2,
+        "choices":[  
+           "Sheep",
+           "Camel",
+           "Goat",
+           "Llama"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What is the scientific name for the &quot;Polar Bear&quot;?",
+        "keyword":"",
+        "answer":0,
+        "choices":[  
+            "Ursus Maritimus",
+           "Polar Bear",
+           "Ursus Spelaeus",
+           "Ursus Arctos"
+        ]
+     },
+     {  
+        
+        
+
+        "question":"How many legs do butterflies have?",
+        "keyword":"",
+        "answer":1,
+        "choices":[  
+           "2",
+           "6",
+           "4",
+           "0"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What scientific suborder does the family Hyaenidae belong to?",
+        "keyword":"",
+        "answer":0,
+        "choices":[  
+            "Feliformia",
+           "Haplorhini",
+           "Caniformia",
+           "Ciconiiformes"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"How many known living species of hyenas are there?",
+        "keyword":"",
+        "answer":2,
+        "choices":[  
+           "8",
+           "2",
+           "4",
+           "6"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"For what reason would a spotted hyena &quot;laugh&quot;?",
+        "keyword":"",
+        "answer":3,
+        "choices":[  
+           "Excitement",
+           "Aggression",
+           "Exhaustion",
+           "Nervousness"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"The now extinct species &quot;Thylacine&quot; was native to where?",
+        "keyword":"",
+        "answer":0,
+        "choices":[  
+            "Tasmania, Australia",
+           "Baluchistan, Pakistan",
+           "Wallachia, Romania",
+           "Oregon, United States"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What is the Gray Wolf&#039;s scientific name?",
+        "keyword":"",
+        "answer":3,
+        "choices":[  
+           "Canis Aureus",
+           "Canis Latrans",
+           "Canis Lupus Lycaon",
+           "Canis Lupus"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What is Grumpy Cat&#039;s real name?",
+        "keyword":"",
+        "answer":2,
+        "choices":[  
+           "Sauce",
+           "Minnie",
+           "Tardar Sauce",
+           "Broccoli"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"Which class of animals are newts members of?",
+        "keyword":"",
+        "answer":1,
+        "choices":[  
+           "Fish",
+           "Amphibian",
+           "Reptiles",
+           "Mammals"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"Unlike on most salamanders, this part of a newt is flat?",
+        "keyword":"",
+        "answer":2,
+        "choices":[  
+           "Head",
+           "Teeth",
+           "Tail",
+           "Feet"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"Which species is a &quot;mountain chicken&quot;?",
+        "keyword":"",
+        "answer":0,
+        "choices":[ 
+            "Frog", 
+           "Chicken",
+           "Horse",
+           "Fly"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What is the fastest animal?",
+        "keyword":"",
+        "answer":0,
+        "choices":[  
+            "Peregrine Falcon",
+           "Golden Eagle",
+           "Cheetah",
+           "Horsefly"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What is the collective noun for a group of crows?",
+        "keyword":"", 
+        "answer":1,
+        "choices":[  
+           "Pack",
+           "Murder",
+           "Gaggle",
+           "Herd"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"Which of the following is another name for the &quot;Poecilotheria Metallica Tarantula&quot;?",
+        "keyword":"",
+        "answer":3,
+        "choices":[  
+           "Hopper",
+           "Silver Stripe",
+           "Woebegone",
+           "Gooty"
+        ]
+     },
+     {  
+        
+        
+        
+        "question":"What is the scientific name of the Common Chimpanzee?",
+        "keyword":"",
+        "answer":2,
+        "choices":[  
+           "Gorilla gorilla",
+           "Pan paniscus",
+           "Pan troglodytes",
+           "Panthera leo"
+        ]
+     }
+ 
+
+    
 ]
