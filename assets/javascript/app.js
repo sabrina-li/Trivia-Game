@@ -10,7 +10,7 @@ var timer=0;
 var rightAns=0;
 var wrongAns = 0;
 var noAns = 0;
-var showResultTime = 1000;//how long the git shows
+var showResultTime = 3000;//how long the git shows
 
 
 //TODO hide use CSS
@@ -18,7 +18,11 @@ $("#quizMain").hide();
 
 $(document).ready(function(){
     $("#start").on("click",function(){
-        restartGame();
+        $("#start").addClass("active");
+        setTimeout(() => {
+            restartGame();
+        }, 1000);
+        
     })
 })
 
@@ -38,7 +42,7 @@ function restartGame(){
 //attach onclick
 function displayNewQuestion(){
     if(questionId >= questionObjArray.length){
-        console.error("questionsId",questionId," outside of index questionObjArray!")
+        console.error("questionsId",questionId," outside of index questionObjArray!");
         endGame();
         
     }else{
@@ -55,10 +59,14 @@ function displayNewQuestion(){
         });
         $(".choiceItem").on("click",choiceClicked)
     
-        let timeRemaining = 30;
+        let timeRemaining = 3;
+
+        $("#remainTime").text(timeRemaining +" Seconds");
         timer = setInterval(function(){
-            $("#remainTime").text(timeRemaining-- +" Seconds");
+            $("#remainTime").text(--timeRemaining +" Seconds");
             if(timeRemaining === 0){
+                // console.log("clear interval:",timer);
+                clearInterval(timer);
                 showTimeUpPage();
                 questionId++;
                 $("#remainQuestions").text(questionObjArray.length-questionId);
@@ -67,14 +75,14 @@ function displayNewQuestion(){
                 }, showResultTime);
             }
         },1000)
+        // console.log("settimer: ",timer);
     }
-    
-   
-    
 }
 
 
 function choiceClicked(){
+    // $(this).off();
+    // console.log("cleared timer:",timer);
     clearInterval(timer);
     if (this.id == questionObjArray[questionId].answer){
         showCorrectPage(questionId);
@@ -83,6 +91,7 @@ function choiceClicked(){
     }
     questionId++;
     $("#remainQuestions").text(questionObjArray.length-questionId);
+    
     setTimeout(() => {
         displayNewQuestion();
     }, showResultTime);
@@ -91,25 +100,27 @@ function choiceClicked(){
 function showCorrectPage(questionId){
     rightAns++;
     $("#question").html("<h3>Correct!!<h3>");
-    $("#choices").html(`<img src=${questionObjArray[questionId].gif} alt=${questionObjArray[questionId].keyword}>`)
+    $("#choices").html(`<img class="imgfit" src=${questionObjArray[questionId].gif} alt=${questionObjArray[questionId].keyword}>`)
 }
 
 function showWrongPage(questionId){
     wrongAns++;
     $("#question").html("<h3>Wrong Answer!!<h3>");
-    $("#choices").html(`<h4>The Correct Answer was: ${questionObjArray[questionId].choices[questionObjArray[questionId].answer]}</h4><img src=${questionObjArray[questionId].gif} alt=${questionObjArray[questionId].keyword}>`)
+    $("#choices").html(`<h4>The Correct Answer was: ${questionObjArray[questionId].choices[questionObjArray[questionId].answer]}</h4><img class="imgfit" src=${questionObjArray[questionId].gif} alt=${questionObjArray[questionId].keyword}>`)
 }
 function showTimeUpPage(){
     noAns++;
-    clearInterval(timer);
     $("#question").html("<h3>Time's Up!!<h3>");
-    $("#choices").html(`<h4>The Correct Answer was: ${questionObjArray[questionId].choices[questionObjArray[questionId].answer]}</h4><img src=${questionObjArray[questionId].gif} alt=${questionObjArray[questionId].keyword}>`)
+    $("#choices").html(`<h4>The Correct Answer was: ${questionObjArray[questionId].choices[questionObjArray[questionId].answer]}</h4><img class="imgfit" src=${questionObjArray[questionId].gif} alt=${questionObjArray[questionId].keyword}>`)
 };
 
 function endGame(){
     // alert("end"+rightAns+wrongAns+noAns);
     $("#question").html("<h3>All Done! Here is how you did:<h3>");
     $("#choices").html(`<h4>Correct Answers: ${rightAns}</h4> <h4>Wrong Answers: ${wrongAns}</h4><h4>Unanswered: ${noAns}</h4>`)
-    $("#choices").append(`<button id="restart">Try Again?</button>`);
+    // $("#choices").append(`<button id="restart">Try Again?</button>`);
+    $("#start").removeClass("active");
+    $("#start").text("Restart");
+    $("#startDiv").show();
     $("#restart").on("click",restartGame);
 }

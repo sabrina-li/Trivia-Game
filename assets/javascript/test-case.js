@@ -2,16 +2,15 @@ setTimeout(() => {
     $("#start").click();
 }, 1000);
 
-setTimeout(() => {
+// setTimeout(() => {
+//     $("#3").click();
+// }, 1000);
+
+setInterval(() => {
     $("#3").click();
-}, 5000);
+}, 4000);
 
-
-setTimeout(() => {
-    $("#3").click();
-}, 8000);
-
-setTimeout(() => {
-    $("#restart").click();
-}, 9000);
+// setTimeout(() => {
+//     $("#restart").click();
+// }, 9000);
  

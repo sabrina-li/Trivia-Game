@@ -35,14 +35,6 @@
         "keyword":"cat eye",
         "gif":"https://media.giphy.com/media/O0TdwJm7LKXqE/giphy.gif"
     },
-    {
-        "question":"All cats are born with what color eyes?",
-        "choices":["Pink","Green","Blue","Black"],
-        "answer":2,
-        "keyword":"cat eye",
-        "gif":"https://media.giphy.com/media/O0TdwJm7LKXqE/giphy.gif"
-    },
-
     {       
         "question":"What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
         "keyword":"Simien Jackel",
