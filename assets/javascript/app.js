@@ -29,7 +29,7 @@ function restartGame(){
     wrongAns = 0;
     noAns = 0;
     $("#remainQuestions").text(questionObjArray.length);
-    $("#start").hide();
+    $("#startDiv").hide();
     $("#quizMain").show();
     displayNewQuestion();
 }   

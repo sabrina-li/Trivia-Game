@@ -4,7 +4,11 @@ html{
     background-image: url("../images/DSC1143.jpg");
     background-size: cover;
     background-repeat: repeat;
-    color:white;
+    color:#E8E8E8;
+}
+body{
+    height: 100%;
+    width: 100%;
 }
 
 h1{ 
@@ -12,13 +16,13 @@ h1{
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-weight: normal;
     font-size: 2.5rem;
-    /* background:rgb(0,0,0);   */
-    /* background: transparent\9;   */
-    background:rgba(0,0,0,0.4);  
+    width: 75%;
+    margin: auto;
 }
 
 
 header {
+    padding: 1.6rem 0;
     position: relative;
 }
 
@@ -28,9 +32,77 @@ header::before {
     left: 0;
     bottom: 0;
     right: 0;
-    background: url('../images/dark-honeycomb.png');
+    background: url('../images/ep_naturalblack.png');
+    background-repeat: repeat;
     /* background: black; */
     opacity: .6;
     content: "";
     z-index: -1;
 }
+
+
+#quizMain,#startDiv{
+    margin-top: 2rem;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: 3rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    color: #414141;
+}
+
+
+#quizMain::before {
+    margin-top: 2rem;
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('../images/white-waves.png');
+    background-repeat: repeat;
+    /* background: black; */
+    opacity: .6;
+    content: "";
+    z-index: -1;
+    
+}
+main,#startDiv{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#start{
+    /* margin-top: 13rem; */
+    font-size: 3rem;
+    border-radius: 60px;
+    height:4rem;
+    width: 10rem;
+    color: #414141;
+    border: none;
+    background: rgb(255,255,255,.5);
+
+}
+#start:hover{
+    background: rgb(200,200,200,.5);
+    transition: height 1s, width 1s;
+    
+}
+#start.active{
+    height:100rem;
+    width: 100rem;
+
+}
+
+
+h4{
+    margin: 0.5rem;
+}
+
+
+
