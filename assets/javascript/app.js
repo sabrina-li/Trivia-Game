@@ -1,5 +1,5 @@
-//API available: https://opentdb.com/api.php?amount=10&category=27&type=multiple
-//GIFHY API: https://developers.giphy.com/dashboard/
+//TODO:API available: https://opentdb.com/api.php?amount=10&category=27&type=multiple
+//TODO:GIFHY API: https://developers.giphy.com/dashboard/
 
 //load vars&config
 $.getJSON("assets/config.json",function(data){
@@ -10,18 +10,18 @@ var timer=0;
 var rightAns=0;
 var wrongAns = 0;
 var noAns = 0;
-var showResultTime = 3000;//how long the git shows
+var showResultTime = 5000;//how long the gif shows
+let timeRemaining = 30;//to display
 
 
-//TODO hide use CSS
-$("#quizMain").hide();
+
 
 $(document).ready(function(){
     $("#start").on("click",function(){
         $("#start").addClass("active");
         setTimeout(() => {
             restartGame();
-        }, 1000);
+        }, 1000);//delay to allow the start buton animation to show 
         
     })
 })
@@ -37,17 +37,17 @@ function restartGame(){
     $("#quizMain").show();
     displayNewQuestion();
 }   
- //get a new question from array
-//display new question and choices
-//attach onclick
+
+
 function displayNewQuestion(){
     if(questionId >= questionObjArray.length){
-        console.error("questionsId",questionId," outside of index questionObjArray!");
+        // console.error("questionsId",questionId," outside of index questionObjArray!");
         endGame();
         
     }else{
         $("#question").empty();
         $("#choices").empty();
+
         let thisquestion = questionObjArray[questionId].question;
         $("#question").html(`<h3>${thisquestion}<h3>`);
         questionObjArray[questionId].choices.forEach(function(element,index) {
@@ -58,8 +58,6 @@ function displayNewQuestion(){
             $("#choices").append(thisChoice);
         });
         $(".choiceItem").on("click",choiceClicked)
-    
-        let timeRemaining = 3;
 
         $("#remainTime").text(timeRemaining +" Seconds");
         timer = setInterval(function(){
