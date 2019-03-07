@@ -1,6 +1,7 @@
 # Trivia-Game
 
 Animal themed trivia game written in jQuery
+Hosted: https://sabrina-li.github.io/Trivia-Game/
 
 You have 20 questions and 30 seconds to answer each question. 
 
