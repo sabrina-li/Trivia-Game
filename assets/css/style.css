@@ -111,6 +111,10 @@ h4{
 }
 h3{
     font-size:2rem;
+    padding-top: 20px;
+}
+#choices{
+    padding-top: 10px;
 }
 .choiceItem{
     cursor: pointer;

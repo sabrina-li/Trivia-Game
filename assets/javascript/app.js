@@ -49,7 +49,7 @@ function displayNewQuestion(){
         $("#choices").empty();
 
         let thisquestion = questionObjArray[questionId].question;
-        $("#question").html(`<h3>${thisquestion}<h3>`);
+        $("#question").html(`<h3>${thisquestion}</h3>`);
         questionObjArray[questionId].choices.forEach(function(element,index) {
             let thisChoice = $("<h4>");
             thisChoice.text(element);
