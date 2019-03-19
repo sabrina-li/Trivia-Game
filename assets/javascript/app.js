@@ -58,7 +58,7 @@ function displayNewQuestion(){
             $("#choices").append(thisChoice);
         });
         $(".choiceItem").on("click",choiceClicked)
-
+        timeRemaining = 30;
         $("#remainTime").text(timeRemaining +" Seconds");
         timer = setInterval(function(){
             $("#remainTime").text(--timeRemaining +" Seconds");
